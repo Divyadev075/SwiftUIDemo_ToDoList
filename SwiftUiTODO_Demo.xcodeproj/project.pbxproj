@@ -16,6 +16,8 @@
 		5A19E05323B38C6E0043B81E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A19E05123B38C6E0043B81E /* LaunchScreen.storyboard */; };
 		5A19E05E23B38C6F0043B81E /* SwiftUiTODO_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19E05D23B38C6F0043B81E /* SwiftUiTODO_DemoTests.swift */; };
 		5A19E06923B38C6F0043B81E /* SwiftUiTODO_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19E06823B38C6F0043B81E /* SwiftUiTODO_DemoUITests.swift */; };
+		5A19E07723B38CDD0043B81E /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19E07623B38CDD0043B81E /* ToDoItemView.swift */; };
+		5A19E07F23B38DC50043B81E /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19E07E23B38DC50043B81E /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5A19E06423B38C6F0043B81E /* SwiftUiTODO_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiTODO_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A19E06823B38C6F0043B81E /* SwiftUiTODO_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiTODO_DemoUITests.swift; sourceTree = "<group>"; };
 		5A19E06A23B38C6F0043B81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A19E07623B38CDD0043B81E /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
+		5A19E07E23B38DC50043B81E /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				5A19E05423B38C6E0043B81E /* Info.plist */,
 				5A19E04723B38C5E0043B81E /* SwiftUiTODO_Demo.xcdatamodeld */,
 				5A19E04E23B38C6E0043B81E /* Preview Content */,
+				5A19E07623B38CDD0043B81E /* ToDoItemView.swift */,
+				5A19E07E23B38DC50043B81E /* ToDoItem.swift */,
 			);
 			path = SwiftUiTODO_Demo;
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 			files = (
 				5A19E04923B38C5E0043B81E /* SwiftUiTODO_Demo.xcdatamodeld in Sources */,
 				5A19E04423B38C5E0043B81E /* AppDelegate.swift in Sources */,
+				5A19E07F23B38DC50043B81E /* ToDoItem.swift in Sources */,
+				5A19E07723B38CDD0043B81E /* ToDoItemView.swift in Sources */,
 				5A19E04B23B38C5E0043B81E /* ContentView.swift in Sources */,
 				5A19E04623B38C5E0043B81E /* SceneDelegate.swift in Sources */,
 			);
